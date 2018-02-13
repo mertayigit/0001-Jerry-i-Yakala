@@ -14,6 +14,7 @@
 		026F16AC20306E4100C5236C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 026F16AA20306E4100C5236C /* LaunchScreen.storyboard */; };
 		026F16B720306E4200C5236C /* Jerry_i_YakalaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026F16B620306E4200C5236C /* Jerry_i_YakalaTests.swift */; };
 		026F16C220306E4200C5236C /* Jerry_i_YakalaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026F16C120306E4200C5236C /* Jerry_i_YakalaUITests.swift */; };
+		026F16D020306F3F00C5236C /* jerry.png in Resources */ = {isa = PBXBuildFile; fileRef = 026F16CF20306F3F00C5236C /* jerry.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		026F16BD20306E4200C5236C /* Jerry'i YakalaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jerry'i YakalaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		026F16C120306E4200C5236C /* Jerry_i_YakalaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jerry_i_YakalaUITests.swift; sourceTree = "<group>"; };
 		026F16C320306E4200C5236C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		026F16CF20306F3F00C5236C /* jerry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jerry.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		026F16A020306E4100C5236C /* Jerry'i Yakala */ = {
 			isa = PBXGroup;
 			children = (
+				026F16CF20306F3F00C5236C /* jerry.png */,
 				026F16A120306E4100C5236C /* AppDelegate.swift */,
 				026F16A320306E4100C5236C /* ViewController.swift */,
 				026F16A520306E4100C5236C /* Main.storyboard */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				026F16D020306F3F00C5236C /* jerry.png in Resources */,
 				026F16AC20306E4100C5236C /* LaunchScreen.storyboard in Resources */,
 				026F16A920306E4100C5236C /* Assets.xcassets in Resources */,
 				026F16A720306E4100C5236C /* Main.storyboard in Resources */,
@@ -427,8 +431,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D3NJXVAYUJ;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Jerry'i Yakala/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mertyigit.JerryiYakala;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,8 +447,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D3NJXVAYUJ;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Jerry'i Yakala/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mertyigit.JerryiYakala;
 				PRODUCT_NAME = "$(TARGET_NAME)";

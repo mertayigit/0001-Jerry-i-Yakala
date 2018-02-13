@@ -1,24 +1,204 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Helvetica.ttc">
+            <string>Helvetica</string>
+            <string>Helvetica-Bold</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Jerry_i_Yakala" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jerry.png" translatesAutoresizingMaskIntoConstraints="NO" id="xJN-uA-zZN">
+                                <rect key="frame" x="9" y="151" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jerry.png" translatesAutoresizingMaskIntoConstraints="NO" id="tm3-Nh-va3">
+                                <rect key="frame" x="9" y="232" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jerry.png" translatesAutoresizingMaskIntoConstraints="NO" id="ujh-Dc-p1Q">
+                                <rect key="frame" x="9" y="313" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jerry.png" translatesAutoresizingMaskIntoConstraints="NO" id="721-oF-830">
+                                <rect key="frame" x="82" y="151" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jerry.png" translatesAutoresizingMaskIntoConstraints="NO" id="2F2-qf-bpP">
+                                <rect key="frame" x="82" y="232" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jerry.png" translatesAutoresizingMaskIntoConstraints="NO" id="3PC-Da-agx">
+                                <rect key="frame" x="155" y="151" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jerry.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ghw-iE-RaE">
+                                <rect key="frame" x="155" y="232" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jerry.png" translatesAutoresizingMaskIntoConstraints="NO" id="YX8-En-Scw">
+                                <rect key="frame" x="155" y="313" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jerry.png" translatesAutoresizingMaskIntoConstraints="NO" id="h35-NR-8Gd">
+                                <rect key="frame" x="228" y="151" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jerry.png" translatesAutoresizingMaskIntoConstraints="NO" id="u6o-AO-P2h">
+                                <rect key="frame" x="228" y="232" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jerry.png" translatesAutoresizingMaskIntoConstraints="NO" id="hyc-93-rLR">
+                                <rect key="frame" x="228" y="313" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jerry.png" translatesAutoresizingMaskIntoConstraints="NO" id="pW1-GF-Tm8">
+                                <rect key="frame" x="301" y="151" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jerry.png" translatesAutoresizingMaskIntoConstraints="NO" id="V1U-BG-Qbb">
+                                <rect key="frame" x="301" y="232" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jerry.png" translatesAutoresizingMaskIntoConstraints="NO" id="LUy-qI-pp5">
+                                <rect key="frame" x="301" y="313" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jerry.png" translatesAutoresizingMaskIntoConstraints="NO" id="Kfo-ya-fCE">
+                                <rect key="frame" x="9" y="397" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jerry.png" translatesAutoresizingMaskIntoConstraints="NO" id="UCV-Jb-mWk">
+                                <rect key="frame" x="155" y="397" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jerry.png" translatesAutoresizingMaskIntoConstraints="NO" id="3NU-M3-jaC">
+                                <rect key="frame" x="228" y="397" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jerry.png" translatesAutoresizingMaskIntoConstraints="NO" id="aCT-VL-MxV">
+                                <rect key="frame" x="301" y="397" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jerry.png" translatesAutoresizingMaskIntoConstraints="NO" id="TGO-vq-NeL">
+                                <rect key="frame" x="9" y="478" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jerry.png" translatesAutoresizingMaskIntoConstraints="NO" id="vA9-DM-WEP">
+                                <rect key="frame" x="82" y="478" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jerry.png" translatesAutoresizingMaskIntoConstraints="NO" id="K3e-xH-URg">
+                                <rect key="frame" x="155" y="478" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jerry.png" translatesAutoresizingMaskIntoConstraints="NO" id="IvE-dO-lTI">
+                                <rect key="frame" x="228" y="478" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jerry.png" translatesAutoresizingMaskIntoConstraints="NO" id="1sU-7e-0N6">
+                                <rect key="frame" x="301" y="478" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aYV-2q-adM">
+                                <rect key="frame" x="16" y="29" width="343" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="38"/>
+                                <color key="textColor" red="0.73307966321243523" green="0.50027943607190262" blue="0.068831101504699926" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.82922762632369995" green="0.57526642084121704" blue="0.2130717933177948" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Skor" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dGK-4S-14A">
+                                <rect key="frame" x="16" y="78" width="343" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                                <color key="textColor" red="0.73307966319999995" green="0.50027943610000003" blue="0.068831101500000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.82922762630000002" green="0.57526642080000001" blue="0.21307179330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wiz-hs-JZZ">
+                                <rect key="frame" x="16" y="109" width="343" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="19"/>
+                                <color key="textColor" red="0.73307966319999995" green="0.50027943610000003" blue="0.068831101500000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.82922762630000002" green="0.57526642080000001" blue="0.21307179330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="En Yüksek Skor" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1AH-C0-FYp">
+                                <rect key="frame" x="16" y="569" width="343" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                                <color key="textColor" red="0.73307966319999995" green="0.50027943610000003" blue="0.068831101500000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.82922762630000002" green="0.57526642080000001" blue="0.21307179330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c7E-Qp-Cn4">
+                                <rect key="frame" x="16" y="603" width="343" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="19"/>
+                                <color key="textColor" red="0.73307966319999995" green="0.50027943610000003" blue="0.068831101500000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.82922762630000002" green="0.57526642080000001" blue="0.21307179330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jerry.png" translatesAutoresizingMaskIntoConstraints="NO" id="Zs0-XE-i89">
+                                <rect key="frame" x="82" y="397" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jerry.png" translatesAutoresizingMaskIntoConstraints="NO" id="xTx-Qw-U6L">
+                                <rect key="frame" x="82" y="313" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="highscoreLabel" destination="c7E-Qp-Cn4" id="D79-8K-pCd"/>
+                        <outlet property="jerry1" destination="xJN-uA-zZN" id="Tm9-4f-K9z"/>
+                        <outlet property="jerry10" destination="V1U-BG-Qbb" id="KyK-5U-gvW"/>
+                        <outlet property="jerry11" destination="ujh-Dc-p1Q" id="EoT-qv-4MN"/>
+                        <outlet property="jerry13" destination="YX8-En-Scw" id="Fi2-HE-IEQ"/>
+                        <outlet property="jerry14" destination="hyc-93-rLR" id="shT-Wn-s2A"/>
+                        <outlet property="jerry15" destination="LUy-qI-pp5" id="oev-oQ-k44"/>
+                        <outlet property="jerry16" destination="Kfo-ya-fCE" id="ntp-nY-e3p"/>
+                        <outlet property="jerry17" destination="TGO-vq-NeL" id="dWT-P7-DWn"/>
+                        <outlet property="jerry18" destination="vA9-DM-WEP" id="CXy-Pg-H4d"/>
+                        <outlet property="jerry19" destination="K3e-xH-URg" id="s3u-PA-cKV"/>
+                        <outlet property="jerry2" destination="721-oF-830" id="0CM-8G-wlv"/>
+                        <outlet property="jerry20" destination="IvE-dO-lTI" id="hfb-2q-GIK"/>
+                        <outlet property="jerry21" destination="1sU-7e-0N6" id="qWI-91-iqE"/>
+                        <outlet property="jerry22" destination="Zs0-XE-i89" id="RIn-vA-fX8"/>
+                        <outlet property="jerry23" destination="UCV-Jb-mWk" id="2AP-Z3-IGt"/>
+                        <outlet property="jerry24" destination="3NU-M3-jaC" id="6e7-z5-ZBG"/>
+                        <outlet property="jerry25" destination="aCT-VL-MxV" id="cee-cQ-Elg"/>
+                        <outlet property="jerry26" destination="xTx-Qw-U6L" id="pZl-Ti-ib3"/>
+                        <outlet property="jerry3" destination="3PC-Da-agx" id="7vp-P3-94F"/>
+                        <outlet property="jerry4" destination="h35-NR-8Gd" id="uFc-gB-TfE"/>
+                        <outlet property="jerry5" destination="pW1-GF-Tm8" id="tSQ-FZ-xts"/>
+                        <outlet property="jerry6" destination="tm3-Nh-va3" id="jHB-ba-BOi"/>
+                        <outlet property="jerry7" destination="2F2-qf-bpP" id="LET-IN-7HA"/>
+                        <outlet property="jerry8" destination="Ghw-iE-RaE" id="hro-Yr-nF5"/>
+                        <outlet property="jerry9" destination="u6o-AO-P2h" id="Hce-la-xcn"/>
+                        <outlet property="scoreLabel" destination="Wiz-hs-JZZ" id="05b-bW-ELF"/>
+                        <outlet property="timeLabel" destination="aYV-2q-adM" id="qPo-ny-8eL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-79.200000000000003" y="133.5832083958021"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="jerry.png" width="1228" height="1299"/>
+    </resources>
 </document>
